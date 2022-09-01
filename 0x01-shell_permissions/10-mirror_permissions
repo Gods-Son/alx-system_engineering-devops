@@ -1,0 +1,9 @@
+#!/bin/bash
+sudo chown betty hello #!/bin/bash
+touch hello #!/bin/bash
+chmod 744 hello #!/bin/bash
+chmod 754 hello #!/bin/bash
+chmod a+x ./hello #!/bin/bash
+chmod 007 hello #!/bin/bash
+chmod 753 hello #!/bin/bash
+chmod 354 hello
