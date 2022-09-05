@@ -1,7 +1,2 @@
 #!/bin/bash
-grep -v "bin" /etc/passwd #!/bin/bash
-grep ^[[:alpha:]] /etc/ssh/sshd_config #!/bin/bash
-tr A Z | tr c e #!/bin/bash
-tr -d c | tr -d C #!/bin/bash
-rev #!/bin/bash
-cut -d: -f1,6 /etc/passwd | sort
+cut -d':' -f1,6 /etc/passwd | sort
