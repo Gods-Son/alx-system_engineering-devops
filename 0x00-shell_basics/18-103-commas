@@ -1,5 +1,2 @@
 #!/bin/bash
-mv [[:upper:]]* /tmp/u #!/bin/bash
-rm *~ #!/bin/bash
-mkdir -p welcome/to/school #!/bin/bash
-ls -pamv
+ls -map|sort -d
