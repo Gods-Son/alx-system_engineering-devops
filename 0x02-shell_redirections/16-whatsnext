@@ -1,15 +1,2 @@
 #!/bin/bash
-cat /etc/passwd #!/bin/bash
-cat /etc/passwd /etc/hosts #!/bin/bash
-tail /etc/passwd #!/bin/bash
-head /etc/passwd #!/bin/bash
-head -3 iacta | tail -1 #!/bin/bash
-echo "Best School" >> \''"Best School"\'\$\?\\\*:) #!/bin/bash
- ls -la > ls_cwd_content #!/bin/bash
-tail -1 < iacta >> iacta #!/bin/bash
-find . -type d ! -path . -print | wc -l #!/bin/bash
-ls -1t | head -10 #!/bin/bash
-sort | uniq -u #!/bin/bash
-grep "root" /etc/passwd #!/bin/bash
-grep -c "bin" /etc/passwd #!/bin/bash
 grep -A 3 "root" /etc/passwd
